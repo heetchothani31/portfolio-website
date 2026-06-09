@@ -13,6 +13,7 @@ type Case = {
   image: string;
   caption: string;
   side: "left" | "right";
+  crop?: boolean; // crop mobile status bar + nav chrome
 };
 
 const cases: Case[] = [
