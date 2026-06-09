@@ -46,12 +46,12 @@ export function Clients() {
                 className="group relative block bg-background hover:bg-surface transition-colors duration-500 p-8 md:p-10 h-full"
               >
                 <div className="flex items-center gap-5">
-                  <div className="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden border border-border/60 bg-surface">
+                  <div className="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden border border-border/60 bg-surface flex items-center justify-center">
                     <img
                       src={c.img}
                       alt={`${c.name} logo`}
                       loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                      className={`w-full h-full ${c.name === "Natural Shankh" ? "object-contain p-1 bg-white" : "object-cover"} transition-transform duration-700 group-hover:scale-[1.06]`}
                     />
                   </div>
                   <div className="flex-1 min-w-0">
