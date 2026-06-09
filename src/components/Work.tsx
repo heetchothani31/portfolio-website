@@ -158,7 +158,7 @@ export function Work() {
           </div>
         </Reveal>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-          {shortform.map((w, i) => (
+          {[...shortform].reverse().map((w, i) => (
             <ThumbCard key={w.href} work={w} index={i} />
           ))}
         </div>

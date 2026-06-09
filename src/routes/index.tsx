@@ -34,8 +34,8 @@ function Index() {
     <main className="grain-overlay min-h-screen bg-background text-foreground antialiased">
       <Nav />
       <Hero />
-      <Work />
       <Results />
+      <Work />
       <Systems />
       <Clients />
       <ClosingCTA />

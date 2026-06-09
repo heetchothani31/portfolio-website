@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import { CountUp } from "./CountUp";
 import heroCreative from "@/assets/hero-creative.jpg.asset.json";
 
 export function Hero() {
@@ -57,18 +58,20 @@ export function Hero() {
           <Reveal delay={900}>
             <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {[
-                ["2M+", "Views generated"],
-                ["10+", "Clients served"],
-              ].map(([n, label]) => (
+                { to: 2, suffix: "M+", label: "Views generated" },
+                { to: 10, suffix: "+", label: "Clients served" },
+              ].map((s) => (
                 <div
-                  key={label}
+                  key={s.label}
                   className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left hover:border-primary/40 transition-all duration-500"
                 >
-                  <div className="font-serif text-[clamp(2.5rem,6vw,4.5rem)] leading-none tracking-[-0.04em] text-foreground group-hover:text-primary transition-colors">
-                    {n}
-                  </div>
+                  <CountUp
+                    to={s.to}
+                    suffix={s.suffix}
+                    className="font-serif text-[clamp(2.5rem,6vw,4.5rem)] leading-none tracking-[-0.04em] text-foreground group-hover:text-primary transition-colors inline-block tabular-nums"
+                  />
                   <div className="mt-4 text-[11px] uppercase tracking-[0.28em] text-muted-foreground">
-                    {label}
+                    {s.label}
                   </div>
                 </div>
               ))}
@@ -117,6 +120,15 @@ export function Hero() {
                     <div key={n} className="flex items-baseline gap-2">
                       <span className="text-primary/80 font-mono text-[11px]">{n}</span>
                       <span className="text-muted-foreground">{label}</span>
+                      {label === "Reels → Carousels" && (
+                        <span className="ml-1 inline-flex items-center gap-1 text-[9px] font-semibold uppercase tracking-[0.18em] text-primary border border-primary/50 bg-primary/10 px-1.5 py-0.5 rounded-sm leading-none">
+                          <span className="relative flex h-1 w-1">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+                            <span className="relative inline-flex h-1 w-1 rounded-full bg-primary" />
+                          </span>
+                          Hot
+                        </span>
+                      )}
                     </div>
                   ))}
                 </div>

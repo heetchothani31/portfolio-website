@@ -13,6 +13,7 @@ type Case = {
   image: string;
   caption: string;
   side: "left" | "right";
+  crop?: boolean; // crop mobile status bar + nav chrome
 };
 
 const cases: Case[] = [
@@ -30,36 +31,43 @@ const cases: Case[] = [
     image: retention,
     caption: "60%+ audience retention at the end of an 18-second short with AVD of 96%.",
     side: "left",
+    crop: true,
   },
   {
     image: engagedViews,
     caption: "Nearly one million engaged views generated through audience-first content.",
     side: "right",
+    crop: true,
   },
   {
     image: reelRetention,
     caption: "Converted attention into measurable growth: 1M views and 4,419 watch hours.",
     side: "left",
+    crop: true,
   },
   {
     image: viewsChart,
     caption: "Mastered the hook by understanding the audience psychology.",
     side: "right",
+    crop: true,
   },
   {
     image: fiveMreach,
     caption: "Nearly 5M accounts reached through audience-first content.",
     side: "left",
+    crop: true,
   },
   {
     image: reachBreakdown,
     caption: "Creating impact and reach through shortform content.",
     side: "right",
+    crop: true,
   },
   {
     image: engagement,
     caption: "1.2 million+ interactions on a single piece of content.",
     side: "left",
+    crop: true,
   },
 ];
 
@@ -104,7 +112,10 @@ export function Results() {
                         alt={c.caption}
                         loading="lazy"
                         className="w-auto max-w-full max-h-[70vh] object-cover object-center rounded-sm transition-transform duration-[1600ms] group-hover:scale-[1.01]"
-                        style={{ objectPosition: "center 50%" }}
+                        style={{
+                          objectPosition: "center 50%",
+                          clipPath: c.crop ? "inset(5% 0 4% 0)" : undefined,
+                        }}
                       />
                     </div>
                     <div className="absolute top-4 right-4 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/70 font-mono z-10">
