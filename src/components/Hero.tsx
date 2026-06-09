@@ -120,6 +120,15 @@ export function Hero() {
                     <div key={n} className="flex items-baseline gap-2">
                       <span className="text-primary/80 font-mono text-[11px]">{n}</span>
                       <span className="text-muted-foreground">{label}</span>
+                      {label === "Reels → Carousels" && (
+                        <span className="ml-1 inline-flex items-center gap-1 text-[9px] font-semibold uppercase tracking-[0.18em] text-primary border border-primary/50 bg-primary/10 px-1.5 py-0.5 rounded-sm leading-none">
+                          <span className="relative flex h-1 w-1">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+                            <span className="relative inline-flex h-1 w-1 rounded-full bg-primary" />
+                          </span>
+                          Hot
+                        </span>
+                      )}
                     </div>
                   ))}
                 </div>
