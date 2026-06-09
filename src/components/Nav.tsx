@@ -1,3 +1,10 @@
+const links = [
+  ["#work", "Work"],
+  ["#results", "Results"],
+  ["#systems", "Systems"],
+  ["#clients", "Clients"],
+];
+
 export function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-background/60 border-b border-border/40">
@@ -6,11 +13,15 @@ export function Nav() {
           Heet<span className="text-primary">.</span>
         </a>
         <nav className="hidden md:flex items-center gap-10 text-[13px] uppercase tracking-[0.18em] text-muted-foreground">
-          <a href="#philosophy" className="hover:text-foreground transition-colors">Philosophy</a>
-          <a href="#work" className="hover:text-foreground transition-colors">Work</a>
-          <a href="#results" className="hover:text-foreground transition-colors">Results</a>
-          <a href="#systems" className="hover:text-foreground transition-colors">Systems</a>
-          <a href="#clients" className="hover:text-foreground transition-colors">Clients</a>
+          {links.map(([href, label]) => (
+            <a
+              key={href}
+              href={href}
+              className="relative hover:text-foreground transition-colors after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
+            >
+              {label}
+            </a>
+          ))}
         </nav>
         <a
           href="mailto:heetchothani7@gmail.com"

@@ -10,7 +10,7 @@ export function ClosingCTA() {
       <div className="container-editorial relative z-10 text-center">
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-10">
-            The Final Frame — 07
+            The Final Frame — 06
           </div>
         </Reveal>
 

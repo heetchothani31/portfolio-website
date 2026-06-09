@@ -70,7 +70,7 @@ export function Results() {
         <div className="mb-24 md:mb-32">
           <Reveal>
             <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-              Results & Case Studies — 04
+              Results & Case Studies — 03
             </div>
           </Reveal>
           <Reveal delay={120}>
@@ -80,7 +80,7 @@ export function Results() {
           </Reveal>
           <Reveal delay={250}>
             <p className="mt-6 max-w-xl text-muted-foreground text-[15px] leading-relaxed">
-              Each frame is one insight — pulled from real channels, real campaigns, real
+              Each frame is one insight pulled from real channels, real campaigns, real
               audiences. Story first, dashboard second.
             </p>
           </Reveal>
@@ -97,14 +97,17 @@ export function Results() {
             >
               <div className="md:col-span-7">
                 <Reveal y={40}>
-                  <figure className="relative rounded-sm overflow-hidden bg-surface border border-border/40 p-4 md:p-8 group">
-                    <img
-                      src={c.image}
-                      alt={c.caption}
-                      loading="lazy"
-                      className="w-full h-auto rounded-sm transition-transform duration-[1600ms] group-hover:scale-[1.01]"
-                    />
-                    <div className="absolute top-4 right-4 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/70 font-mono">
+                  <figure className="relative rounded-sm overflow-hidden bg-surface border border-border/40 p-4 md:p-6 group">
+                    <div className="relative w-full mx-auto max-h-[70vh] overflow-hidden rounded-sm flex items-center justify-center">
+                      <img
+                        src={c.image}
+                        alt={c.caption}
+                        loading="lazy"
+                        className="w-auto max-w-full max-h-[70vh] object-cover object-center rounded-sm transition-transform duration-[1600ms] group-hover:scale-[1.01]"
+                        style={{ objectPosition: "center 50%" }}
+                      />
+                    </div>
+                    <div className="absolute top-4 right-4 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/70 font-mono z-10">
                       Case / {String(i + 1).padStart(2, "0")}
                     </div>
                   </figure>

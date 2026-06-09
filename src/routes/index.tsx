@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
-import { Philosophy } from "@/components/Philosophy";
 import { Work } from "@/components/Work";
 import { Results } from "@/components/Results";
 import { Systems } from "@/components/Systems";
@@ -35,7 +34,6 @@ function Index() {
     <main className="grain-overlay min-h-screen bg-background text-foreground antialiased">
       <Nav />
       <Hero />
-      <Philosophy />
       <Work />
       <Results />
       <Systems />

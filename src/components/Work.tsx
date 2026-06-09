@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import reelVidyut from "@/assets/reel-vidyut.jpg.asset.json";
 
 type Work = {
   label: string;
@@ -8,74 +9,74 @@ type Work = {
   vertical: boolean;
 };
 
-// YouTube auto-thumbnails work via img.youtube.com — no API needed.
 const yt = (id: string) => `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
 
 const shortform: Work[] = [
   {
     label: "Instagram Reel",
-    caption: "Audience-first short — viral hook",
+    caption: "what happens when vidyut jammwal drop-tests a real SHANKH?",
     href: "https://www.instagram.com/reel/DYMBUfZsGxu/",
-    thumb: "",
+    thumb: reelVidyut.url,
     vertical: true,
   },
   {
     label: "YouTube Short",
-    caption: "Retention-engineered 18s short",
+    caption: "adah sharma singing shiv tandav stotram!",
     href: "https://www.youtube.com/shorts/ctKQ2jB1Kjo",
     thumb: yt("ctKQ2jB1Kjo"),
     vertical: true,
   },
   {
     label: "YouTube Short",
-    caption: "Hook + payoff structure",
+    caption: "Rajnikanth's Secret Voice Actor Revealed!",
     href: "https://www.youtube.com/shorts/2kxahcnhh_8",
     thumb: yt("2kxahcnhh_8"),
     vertical: true,
   },
   {
     label: "YouTube Short",
-    caption: "Narrative compression",
+    caption: "adah sharma singing shiv tandav stotram pt.2!",
     href: "https://www.youtube.com/shorts/K1nEoMOhppg",
     thumb: yt("K1nEoMOhppg"),
     vertical: true,
   },
 ];
 
+// Reverse-ordered per request (5th first).
 const longform: Work[] = [
   {
     label: "YouTube",
-    caption: "Long-form storytelling",
-    href: "https://www.youtube.com/watch?v=HlP4D0E3r0I&t=176s",
-    thumb: yt("HlP4D0E3r0I"),
+    caption: "The Experiment That Shocked Scientists | Double Slit Experiment",
+    href: "https://www.youtube.com/watch?v=YseBq0WxEsI&t=231s",
+    thumb: yt("YseBq0WxEsI"),
     vertical: false,
   },
   {
     label: "YouTube",
-    caption: "Cinematic edit direction",
-    href: "https://www.youtube.com/watch?v=thwpjRQvvGo&t=10s",
-    thumb: yt("thwpjRQvvGo"),
-    vertical: false,
-  },
-  {
-    label: "YouTube",
-    caption: "Narrative arc design",
-    href: "https://www.youtube.com/watch?v=GkuOEyTePiQ&t=144s",
-    thumb: yt("GkuOEyTePiQ"),
-    vertical: false,
-  },
-  {
-    label: "YouTube",
-    caption: "Hook-led pacing system",
+    caption: "Zerodha's SECRET to HUGE Success Without Funding",
     href: "https://www.youtube.com/watch?v=jzrG97acOe8&t=28s",
     thumb: yt("jzrG97acOe8"),
     vertical: false,
   },
   {
     label: "YouTube",
-    caption: "Retention-anchored edit",
-    href: "https://www.youtube.com/watch?v=YseBq0WxEsI&t=231s",
-    thumb: yt("YseBq0WxEsI"),
+    caption: "How did boAt build a 12,000 crore tech empire with ₹999 earphones?",
+    href: "https://www.youtube.com/watch?v=GkuOEyTePiQ&t=144s",
+    thumb: yt("GkuOEyTePiQ"),
+    vertical: false,
+  },
+  {
+    label: "YouTube",
+    caption: "The Truth About Gold: Why the Rich Are Hoarding It Again",
+    href: "https://www.youtube.com/watch?v=thwpjRQvvGo&t=10s",
+    thumb: yt("thwpjRQvvGo"),
+    vertical: false,
+  },
+  {
+    label: "YouTube",
+    caption: "Why Every Country is Running For Lithium (The New Oil?)",
+    href: "https://www.youtube.com/watch?v=HlP4D0E3r0I&t=176s",
+    thumb: yt("HlP4D0E3r0I"),
     vertical: false,
   },
 ];
@@ -95,24 +96,12 @@ function ThumbCard({ work, index }: { work: Work; index: number }) {
             work.vertical ? "aspect-[9/16]" : "aspect-video",
           ].join(" ")}
         >
-          {work.thumb ? (
-            <img
-              src={work.thumb}
-              alt={work.caption}
-              loading="lazy"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
-            />
-          ) : (
-            // Instagram reel — designed cover (no public thumbnail API)
-            <div className="absolute inset-0 bg-gradient-to-br from-warm/60 via-surface to-background flex items-center justify-center">
-              <div className="text-center px-4">
-                <div className="font-serif italic text-3xl text-primary/80">Reel</div>
-                <div className="mt-2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                  Instagram
-                </div>
-              </div>
-            </div>
-          )}
+          <img
+            src={work.thumb}
+            alt={work.caption}
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-background/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity duration-500" />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <div className="w-16 h-16 rounded-full bg-primary/95 backdrop-blur flex items-center justify-center">
@@ -146,7 +135,7 @@ export function Work() {
           <div>
             <Reveal>
               <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                Selected Narratives — 03
+                Selected Narratives — 02
               </div>
             </Reveal>
             <Reveal delay={120}>
@@ -165,7 +154,7 @@ export function Work() {
 
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground mb-8">
-            Shortform — Vertical
+            Shortform Content
           </div>
         </Reveal>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -178,7 +167,7 @@ export function Work() {
 
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground mb-8">
-            Longform — Horizontal
+            Longform Content
           </div>
         </Reveal>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">

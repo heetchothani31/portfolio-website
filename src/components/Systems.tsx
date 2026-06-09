@@ -3,23 +3,24 @@ import { Reveal } from "./Reveal";
 const services = [
   {
     n: "01",
-    title: "LinkedIn + Personal Brand System",
-    desc: "Positioning, voice, and a content engine built around how decision-makers actually read.",
+    title: "Reels → Carousels",
+    desc: "Translating viral videos into the format your audience now saves and re-reads capitalizing on the demand-supply gap which Instagram rewards.",
+    hot: true,
   },
   {
     n: "02",
-    title: "Content Repurposing System",
-    desc: "One narrative, atomised across formats and platforms — without losing its weight.",
-  },
-  {
-    n: "03",
     title: "Multi-platform Content System",
     desc: "A unified system engineered for attention across shortform, longform, and written.",
   },
   {
-    n: "04",
+    n: "03",
     title: "Strategic Account Audit",
     desc: "A forensic read of your content, positioning, and the gap between them.",
+  },
+  {
+    n: "04",
+    title: "Content Repurposing System",
+    desc: "One narrative, atomised across formats and platforms without losing its weight.",
   },
   {
     n: "05",
@@ -28,9 +29,8 @@ const services = [
   },
   {
     n: "06",
-    title: "Reels → Carousels",
-    desc: "Translating viral video into the format your audience now saves and re-reads.",
-    hot: true,
+    title: "LinkedIn + Personal Brand System",
+    desc: "Positioning, voice, and a content engine built around how decision-makers actually read.",
   },
 ];
 
@@ -42,7 +42,7 @@ export function Systems() {
           <div className="lg:col-span-5">
             <Reveal>
               <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                Creative Systems — 05
+                Creative Systems — 04
               </div>
             </Reveal>
             <Reveal delay={120}>
@@ -95,12 +95,6 @@ export function Systems() {
             </Reveal>
           ))}
         </div>
-
-        <Reveal delay={150}>
-          <p className="mt-12 text-sm text-muted-foreground max-w-md italic">
-            Pricing shared privately, scoped to fit the system — not the other way around.
-          </p>
-        </Reveal>
       </div>
     </section>
   );

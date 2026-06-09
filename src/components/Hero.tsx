@@ -1,10 +1,10 @@
 import { Reveal } from "./Reveal";
-import heroSilhouette from "@/assets/hero-silhouette.png";
+import heroCreative from "@/assets/hero-creative.jpg.asset.json";
 
 export function Hero() {
   return (
     <>
-      {/* Selling frame — first thing visitor sees (varunmp4.com style) */}
+      {/* Selling frame — first thing visitor sees */}
       <section id="top" className="relative min-h-screen flex items-center justify-center pt-24 pb-20 px-6">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] max-w-[90vw] max-h-[90vw] rounded-full bg-primary/[0.06] blur-[140px]" />
@@ -17,7 +17,7 @@ export function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
               </span>
-              Available for select projects
+              Available for projects
             </div>
           </Reveal>
 
@@ -52,14 +52,32 @@ export function Hero() {
               </a>
             </div>
           </Reveal>
-        </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60">
-          Scroll
+          {/* Stats boxes — varunmp4.com style */}
+          <Reveal delay={900}>
+            <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+              {[
+                ["2M+", "Views generated"],
+                ["10+", "Clients served"],
+              ].map(([n, label]) => (
+                <div
+                  key={label}
+                  className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left hover:border-primary/40 transition-all duration-500"
+                >
+                  <div className="font-serif text-[clamp(2.5rem,6vw,4.5rem)] leading-none tracking-[-0.04em] text-foreground group-hover:text-primary transition-colors">
+                    {n}
+                  </div>
+                  <div className="mt-4 text-[11px] uppercase tracking-[0.28em] text-muted-foreground">
+                    {label}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* Identity hero — Heet + silhouette */}
+      {/* Identity hero — Heet */}
       <section className="relative py-24 md:py-40 overflow-hidden">
         <div className="container-editorial">
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
@@ -89,11 +107,12 @@ export function Hero() {
               <Reveal delay={550}>
                 <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-4 max-w-sm text-[13px]">
                   {[
-                    ["#1", "LinkedIn + Personal Brand"],
-                    ["#2", "Content Repurposing"],
-                    ["#3", "Multi-platform Content"],
-                    ["#4", "Strategic Audit"],
+                    ["#1", "Reels → Carousels"],
+                    ["#2", "Multi-platform Content"],
+                    ["#3", "Strategic Account Audit"],
+                    ["#4", "Content Repurposing"],
                     ["#5", "Strategy Consulting"],
+                    ["#6", "LinkedIn + Personal Brand"],
                   ].map(([n, label]) => (
                     <div key={n} className="flex items-baseline gap-2">
                       <span className="text-primary/80 font-mono text-[11px]">{n}</span>
@@ -108,14 +127,12 @@ export function Hero() {
               <Reveal delay={200} y={40}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-surface">
                   <img
-                    src={heroSilhouette}
-                    alt="Heet — creative strategist silhouette"
-                    className="w-full h-full object-cover mix-blend-luminosity opacity-90 transition-all duration-[1600ms] hover:scale-[1.02] hover:opacity-100"
+                    src={heroCreative.url}
+                    alt="Heet — Creative Strategist"
+                    className="w-full h-full object-cover transition-all duration-[1600ms] hover:scale-[1.02]"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-tr from-background/40 via-transparent to-primary/10 pointer-events-none" />
-                  <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between text-[10px] uppercase tracking-[0.28em] text-foreground/70">
-                    <span>Portrait — 001</span>
-                    <span>Heet / 2026</span>
+                  <div className="absolute bottom-5 right-5 text-[10px] uppercase tracking-[0.28em] text-foreground/70">
+                    Heet
                   </div>
                 </div>
               </Reveal>
