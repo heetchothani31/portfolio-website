@@ -31,36 +31,43 @@ const cases: Case[] = [
     image: retention,
     caption: "60%+ audience retention at the end of an 18-second short with AVD of 96%.",
     side: "left",
+    crop: true,
   },
   {
     image: engagedViews,
     caption: "Nearly one million engaged views generated through audience-first content.",
     side: "right",
+    crop: true,
   },
   {
     image: reelRetention,
     caption: "Converted attention into measurable growth: 1M views and 4,419 watch hours.",
     side: "left",
+    crop: true,
   },
   {
     image: viewsChart,
     caption: "Mastered the hook by understanding the audience psychology.",
     side: "right",
+    crop: true,
   },
   {
     image: fiveMreach,
     caption: "Nearly 5M accounts reached through audience-first content.",
     side: "left",
+    crop: true,
   },
   {
     image: reachBreakdown,
     caption: "Creating impact and reach through shortform content.",
     side: "right",
+    crop: true,
   },
   {
     image: engagement,
     caption: "1.2 million+ interactions on a single piece of content.",
     side: "left",
+    crop: true,
   },
 ];
 
