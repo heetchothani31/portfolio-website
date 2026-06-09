@@ -1,6 +1,6 @@
 const links = [
-  ["#work", "Work"],
   ["#results", "Results"],
+  ["#work", "Work"],
   ["#systems", "Systems"],
   ["#clients", "Clients"],
 ];
