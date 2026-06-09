@@ -112,7 +112,10 @@ export function Results() {
                         alt={c.caption}
                         loading="lazy"
                         className="w-auto max-w-full max-h-[70vh] object-cover object-center rounded-sm transition-transform duration-[1600ms] group-hover:scale-[1.01]"
-                        style={{ objectPosition: "center 50%" }}
+                        style={{
+                          objectPosition: "center 50%",
+                          clipPath: c.crop ? "inset(5% 0 4% 0)" : undefined,
+                        }}
                       />
                     </div>
                     <div className="absolute top-4 right-4 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/70 font-mono z-10">
