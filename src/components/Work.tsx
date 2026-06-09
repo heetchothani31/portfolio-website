@@ -135,7 +135,7 @@ export function Work() {
           <div>
             <Reveal>
               <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                Selected Narratives — 02
+                Selected Narratives — 03
               </div>
             </Reveal>
             <Reveal delay={120}>
