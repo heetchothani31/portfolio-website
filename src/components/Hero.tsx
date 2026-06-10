@@ -63,7 +63,7 @@ export function Hero() {
               ].map((s) => (
                 <div
                   key={s.label}
-                  className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left hover:border-primary/40 hover:-translate-y-1 hover:shadow-[0_0_40px_-10px_rgba(255,109,41,0.12)] transition-all duration-700"
+                  className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left stat-glow hover:border-primary/40 hover:-translate-y-1 hover:shadow-[0_0_40px_-10px_rgba(255,109,41,0.12)] transition-all duration-700"
                 >
                   <CountUp
                     to={s.to}
