@@ -39,15 +39,8 @@ export function Hero() {
           <Reveal delay={700}>
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
               <a
-                href="#work"
-                className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-3.5 text-sm font-medium hover:bg-primary/90 transition-all hover:-translate-y-0.5"
-              >
-                View Selected Work
-                <span className="transition-transform group-hover:translate-x-1">→</span>
-              </a>
-              <a
                 href="mailto:heetchothani7@gmail.com"
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/40 backdrop-blur px-7 py-3.5 text-sm hover:bg-surface transition-all"
+                className="inline-flex items-center gap-2 rounded-full bg-primary text-black px-7 py-3.5 text-sm font-medium hover:bg-primary/90 transition-all hover:-translate-y-0.5"
               >
                 Book a call
               </a>
