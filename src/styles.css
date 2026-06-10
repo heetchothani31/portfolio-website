@@ -146,3 +146,19 @@
     padding-inline: 3rem;
   }
 }
+
+/* Premium stat-box glow — slow, subtle breathing border */
+@keyframes stat-glow {
+  0%, 100% {
+    border-color: oklch(1 0 0 / 8%);
+    box-shadow: 0 0 0 0 oklch(0.71 0.18 42 / 0);
+  }
+  50% {
+    border-color: oklch(0.71 0.18 42 / 0.22);
+    box-shadow: 0 0 28px -6px oklch(0.71 0.18 42 / 0.07);
+  }
+}
+
+@utility stat-glow {
+  animation: stat-glow 5s ease-in-out infinite;
+}
