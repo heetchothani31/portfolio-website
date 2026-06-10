@@ -58,12 +58,12 @@ export function Hero() {
           <Reveal delay={900}>
             <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {[
-                { to: 2, suffix: "M+", label: "Views generated" },
+                { to: 3, suffix: "M+", label: "Views generated" },
                 { to: 10, suffix: "+", label: "Clients served" },
               ].map((s) => (
                 <div
                   key={s.label}
-                  className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left hover:border-primary/40 transition-all duration-500"
+                  className="group relative rounded-sm border border-border/50 bg-surface/40 backdrop-blur px-8 py-10 text-left stat-glow hover:border-primary/40 hover:-translate-y-1 hover:shadow-[0_0_40px_-10px_rgba(255,109,41,0.12)] transition-all duration-700"
                 >
                   <CountUp
                     to={s.to}
