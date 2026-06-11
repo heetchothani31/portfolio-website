@@ -1,8 +1,8 @@
 const links = [
-  ["#results", "Results"],
+  ["#clients", "Clients"],
   ["#work", "Work"],
   ["#systems", "Systems"],
-  ["#clients", "Clients"],
+  ["#results", "Results"],
 ];
 
 export function Nav() {

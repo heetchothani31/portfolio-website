@@ -27,7 +27,7 @@ export function Clients() {
       <div className="container-editorial">
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-            Brands & Creators — 05
+            Brands & Creators — 02
           </div>
         </Reveal>
         <Reveal delay={120}>

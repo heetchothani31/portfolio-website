@@ -34,10 +34,10 @@ function Index() {
     <main className="grain-overlay min-h-screen bg-background text-foreground antialiased">
       <Nav />
       <Hero />
-      <Results />
+      <Clients />
       <Work />
       <Systems />
-      <Clients />
+      <Results />
       <ClosingCTA />
       <Footer />
     </main>
