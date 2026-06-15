@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-export function useReveal<T extends HTMLElement = HTMLDivElement>(options?: IntersectionObserverInit) {
+export function useReveal<T extends HTMLElement = HTMLDivElement>(
+  options?: IntersectionObserverInit,
+) {
   const ref = useRef<T | null>(null);
   const [visible, setVisible] = useState(false);
 

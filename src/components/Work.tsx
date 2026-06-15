@@ -84,12 +84,7 @@ const longform: Work[] = [
 function ThumbCard({ work, index }: { work: Work; index: number }) {
   return (
     <Reveal delay={(index % 4) * 80} y={28}>
-      <a
-        href={work.href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group block"
-      >
+      <a href={work.href} target="_blank" rel="noopener noreferrer" className="group block">
         <div
           className={[
             "relative overflow-hidden rounded-sm bg-surface border border-border/40 transition-all duration-700 hover:border-primary/40",
@@ -140,8 +135,8 @@ export function Work() {
             </Reveal>
             <Reveal delay={120}>
               <h2 className="font-serif text-[clamp(2.2rem,5vw,4.4rem)] leading-[1.05] tracking-[-0.03em] text-balance max-w-2xl">
-                A curated archive of <em className="italic text-primary font-normal">narratives</em>,
-                growth experiments, and creative systems.
+                A curated archive of <em className="italic text-primary font-normal">narratives</em>
+                , growth experiments, and creative systems.
               </h2>
             </Reveal>
           </div>

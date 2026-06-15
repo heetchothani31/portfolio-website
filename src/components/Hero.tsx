@@ -6,7 +6,10 @@ export function Hero() {
   return (
     <>
       {/* Selling frame — first thing visitor sees */}
-      <section id="top" className="relative min-h-screen flex items-center justify-center pt-24 pb-20 px-6">
+      <section
+        id="top"
+        className="relative min-h-screen flex items-center justify-center pt-24 pb-20 px-6"
+      >
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] max-w-[90vw] max-h-[90vw] rounded-full bg-primary/[0.06] blur-[140px]" />
         </div>

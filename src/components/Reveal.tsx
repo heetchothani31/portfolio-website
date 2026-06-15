@@ -9,7 +9,13 @@ interface RevealProps {
   y?: number;
 }
 
-export function Reveal({ children, delay = 0, className = "", as: Tag = "div", y = 24 }: RevealProps) {
+export function Reveal({
+  children,
+  delay = 0,
+  className = "",
+  as: Tag = "div",
+  y = 24,
+}: RevealProps) {
   const { ref, visible } = useReveal<HTMLDivElement>();
   return (
     <Tag

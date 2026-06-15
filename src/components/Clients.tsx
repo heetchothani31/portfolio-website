@@ -10,15 +10,60 @@ import cBmm from "@/assets/clients/c-bmm.jpg.asset.json";
 import cB99 from "@/assets/clients/c-b99.jpg.asset.json";
 
 const clients = [
-  { name: "Sohrab Vakharia", href: "https://www.youtube.com/@sohrabvakharia", platform: "YouTube", img: cSohrab.url },
-  { name: "Level Up With Hiral", href: "https://www.youtube.com/@levelupwithhiral", platform: "YouTube · Instagram", img: cHiral.url },
-  { name: "Nikhil Arora", href: "https://www.instagram.com/tapyourgrowth/", platform: "Instagram", img: cNikhil.url },
-  { name: "Infocious", href: "https://www.youtube.com/@infocious", platform: "YouTube", img: cInfocious.url },
-  { name: "Natural Shankh", href: "https://www.youtube.com/@NaturalShankh", platform: "YouTube · Instagram · Web", img: cShankh.url },
-  { name: "Kalari Warriors", href: "https://www.kalariwarriors.com/", platform: "Web · Instagram", img: cKalari.url },
-  { name: "Nard Ranks", href: "https://www.youtube.com/@NardRanks", platform: "YouTube", img: cNard.url },
-  { name: "Bring Me Memes", href: "https://www.instagram.com/bringme.memes", platform: "Instagram", img: cBmm.url },
-  { name: "B99 Memes", href: "https://www.instagram.com/b99_bybmm", platform: "Instagram", img: cB99.url },
+  {
+    name: "Sohrab Vakharia",
+    href: "https://www.youtube.com/@sohrabvakharia",
+    platform: "YouTube",
+    img: cSohrab.url,
+  },
+  {
+    name: "Level Up With Hiral",
+    href: "https://www.youtube.com/@levelupwithhiral",
+    platform: "YouTube · Instagram",
+    img: cHiral.url,
+  },
+  {
+    name: "Nikhil Arora",
+    href: "https://www.instagram.com/tapyourgrowth/",
+    platform: "Instagram",
+    img: cNikhil.url,
+  },
+  {
+    name: "Infocious",
+    href: "https://www.youtube.com/@infocious",
+    platform: "YouTube",
+    img: cInfocious.url,
+  },
+  {
+    name: "Natural Shankh",
+    href: "https://www.youtube.com/@NaturalShankh",
+    platform: "YouTube · Instagram · Web",
+    img: cShankh.url,
+  },
+  {
+    name: "Kalari Warriors",
+    href: "https://www.kalariwarriors.com/",
+    platform: "Web · Instagram",
+    img: cKalari.url,
+  },
+  {
+    name: "Nard Ranks",
+    href: "https://www.youtube.com/@NardRanks",
+    platform: "YouTube",
+    img: cNard.url,
+  },
+  {
+    name: "Bring Me Memes",
+    href: "https://www.instagram.com/bringme.memes",
+    platform: "Instagram",
+    img: cBmm.url,
+  },
+  {
+    name: "B99 Memes",
+    href: "https://www.instagram.com/b99_bybmm",
+    platform: "Instagram",
+    img: cB99.url,
+  },
 ];
 
 export function Clients() {
@@ -32,7 +77,8 @@ export function Clients() {
         </Reveal>
         <Reveal delay={120}>
           <h2 className="font-serif text-[clamp(2rem,4.5vw,3.8rem)] leading-[1.05] tracking-[-0.03em] text-balance max-w-3xl mb-16">
-            Trusted by founders, creators, and brands building <em className="italic text-primary font-normal">durable</em> attention.
+            Trusted by founders, creators, and brands building{" "}
+            <em className="italic text-primary font-normal">durable</em> attention.
           </h2>
         </Reveal>
 

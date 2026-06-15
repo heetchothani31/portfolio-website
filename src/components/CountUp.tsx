@@ -35,7 +35,7 @@ export function CountUp({ to, suffix = "", prefix = "", duration = 1800, classNa
           }
         });
       },
-      { threshold: 0.4 }
+      { threshold: 0.4 },
     );
     io.observe(el);
     return () => io.disconnect();

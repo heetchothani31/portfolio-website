@@ -88,8 +88,8 @@ export function Results() {
           </Reveal>
           <Reveal delay={250}>
             <p className="mt-6 max-w-xl text-muted-foreground text-[15px] leading-relaxed">
-              Each frame is one insight pulled from real channels, real campaigns, real
-              audiences. Story first, dashboard second.
+              Each frame is one insight pulled from real channels, real campaigns, real audiences.
+              Story first, dashboard second.
             </p>
           </Reveal>
         </div>

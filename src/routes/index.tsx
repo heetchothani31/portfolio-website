@@ -20,7 +20,8 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Heet Chothani — Creative Strategist" },
       {
         property: "og:description",
-        content: "Narrative-led content systems engineered for attention. Millions of views are a byproduct. Growth is the goal.",
+        content:
+          "Narrative-led content systems engineered for attention. Millions of views are a byproduct. Growth is the goal.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

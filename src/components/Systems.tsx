@@ -47,7 +47,8 @@ export function Systems() {
             </Reveal>
             <Reveal delay={120}>
               <h2 className="font-serif text-[clamp(2.2rem,4.5vw,3.8rem)] leading-[1.05] tracking-[-0.03em] text-balance">
-                Not services. <em className="italic text-primary font-normal">Systems</em> built to compound.
+                Not services. <em className="italic text-primary font-normal">Systems</em> built to
+                compound.
               </h2>
             </Reveal>
           </div>
@@ -61,7 +62,8 @@ export function Systems() {
                   <span className="text-primary/80">→</span> Payment upfront before work begins
                 </li>
                 <li className="flex items-baseline gap-3">
-                  <span className="text-primary/80">→</span> Long-term positioning over short-term virality
+                  <span className="text-primary/80">→</span> Long-term positioning over short-term
+                  virality
                 </li>
               </ul>
             </Reveal>
