@@ -121,7 +121,8 @@ function RootComponent() {
   const { queryClient } = Route$1.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter = () => import("./index-CGMdmjfA.mjs");
+const $$splitComponentImporter = () => import("./index-CURTWKJp.mjs");
+const favicon = encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text y="64" x="50" font-size="88" text-anchor="middle" dominant-baseline="middle">📺</text></svg>');
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -141,6 +142,10 @@ const Route = createFileRoute("/")({
     }, {
       name: "twitter:card",
       content: "summary_large_image"
+    }],
+    links: [{
+      rel: "icon",
+      href: `data:image/svg+xml,${favicon}`
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter, "component")

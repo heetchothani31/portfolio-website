@@ -108,10 +108,7 @@ function CountUp({ to, suffix = "", prefix = "", duration = 1800, className }) {
     suffix
   ] });
 }
-const url$a = "/__l5e/assets-v1/5a313308-fe88-4882-b2bf-429acaa03896/hero-creative.jpg";
-const heroCreative = {
-  url: url$a
-};
+const heroCreative = "/assets/hero-creative-Cb0LEvoH.jpg";
 function Hero() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -206,8 +203,8 @@ function Hero() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "img",
           {
-            src: heroCreative.url,
-            alt: "Heet , Creative Strategist",
+            src: heroCreative,
+            alt: "Heet, Creative Strategist",
             className: "w-full h-full object-cover transition-all duration-[1600ms] hover:scale-[1.02]"
           }
         ),
@@ -216,17 +213,14 @@ function Hero() {
     ] }) }) })
   ] });
 }
-const url$9 = "/__l5e/assets-v1/6838cde8-291e-4562-b13b-7884760bae79/reel-vidyut.jpg";
-const reelVidyut = {
-  url: url$9
-};
+const reelVidyut = "/assets/reel-vidyut-DiJgjn1O.jpg";
 const yt = (id) => `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
 const shortform = [
   {
     label: "Instagram Reel",
     caption: "what happens when vidyut jammwal drop-tests a real SHANKH?",
     href: "https://www.instagram.com/reel/DYMBUfZsGxu/",
-    thumb: reelVidyut.url,
+    thumb: reelVidyut,
     vertical: true
   },
   {
@@ -518,96 +512,69 @@ function Systems() {
     ] }) }, s.n)) })
   ] }) });
 }
-const url$8 = "/__l5e/assets-v1/190439df-4cb3-46e0-8e7d-2a5cf865f247/c-sohrab.jpg";
-const cSohrab = {
-  url: url$8
-};
-const url$7 = "/__l5e/assets-v1/2f5e1785-ead5-4d8b-bf77-3d817c40d28a/c-hiral.jpg";
-const cHiral = {
-  url: url$7
-};
-const url$6 = "/__l5e/assets-v1/24b58cd2-4aaa-4406-b4c3-a0aa7e2a2415/c-nikhil.jpg";
-const cNikhil = {
-  url: url$6
-};
-const url$5 = "/__l5e/assets-v1/252825ee-20fd-45d1-913a-3bd62a510701/c-infocious.jpg";
-const cInfocious = {
-  url: url$5
-};
-const url$4 = "/__l5e/assets-v1/ff3fbb88-e0c8-40ae-a249-027dfe3f63b7/c-shankh.jpg";
-const cShankh = {
-  url: url$4
-};
-const url$3 = "/__l5e/assets-v1/eb924566-1577-4cd6-abe3-5d49fbf5f2b8/c-kalari.jpg";
-const cKalari = {
-  url: url$3
-};
-const url$2 = "/__l5e/assets-v1/cebadaab-f2e9-4054-9e72-58464401beb3/c-nard.jpg";
-const cNard = {
-  url: url$2
-};
-const url$1 = "/__l5e/assets-v1/d712f1c1-209c-4ff6-917a-68e1bb70cbb3/c-bmm.jpg";
-const cBmm = {
-  url: url$1
-};
-const url = "/__l5e/assets-v1/5fc8c7b4-08a2-450f-b204-95786c8e83e2/c-b99.jpg";
-const cB99 = {
-  url
-};
+const cSohrab = "/assets/c-sohrab-8QOWrU7e.jpg";
+const cHiral = "/assets/c-hiral-DdAUuIue.jpg";
+const cNikhil = "/assets/c-nikhil-CBA_Oa4x.jpg";
+const cInfocious = "/assets/c-infocious-DCSDFqTb.jpg";
+const cShankh = "/assets/c-shankh-DpSsaj0Z.jpg";
+const cKalari = "/assets/c-kalari-CnRK2eWP.jpg";
+const cNard = "/assets/c-nard-CqalHkbB.jpg";
+const cBmm = "/assets/c-bmm-DAH0c3NI.jpg";
+const cB99 = "/assets/c-b99-D1NhgGOg.jpg";
 const clients = [
   {
     name: "Sohrab Vakharia",
     href: "https://www.youtube.com/@sohrabvakharia",
     platform: "YouTube",
-    img: cSohrab.url
+    img: cSohrab
   },
   {
     name: "Level Up With Hiral",
     href: "https://www.youtube.com/@levelupwithhiral",
     platform: "YouTube · Instagram",
-    img: cHiral.url
+    img: cHiral
   },
   {
     name: "Nikhil Arora",
     href: "https://www.instagram.com/tapyourgrowth/",
     platform: "Instagram",
-    img: cNikhil.url
+    img: cNikhil
   },
   {
     name: "Infocious",
     href: "https://www.youtube.com/@infocious",
     platform: "YouTube",
-    img: cInfocious.url
+    img: cInfocious
   },
   {
     name: "Natural Shankh",
     href: "https://www.youtube.com/@NaturalShankh",
     platform: "YouTube · Instagram · Web",
-    img: cShankh.url
+    img: cShankh
   },
   {
     name: "Kalari Warriors",
     href: "https://www.kalariwarriors.com/",
     platform: "Web · Instagram",
-    img: cKalari.url
+    img: cKalari
   },
   {
     name: "Nard Ranks",
     href: "https://www.youtube.com/@NardRanks",
     platform: "YouTube",
-    img: cNard.url
+    img: cNard
   },
   {
     name: "Bring Me Memes",
     href: "https://www.instagram.com/bringme.memes",
     platform: "Instagram",
-    img: cBmm.url
+    img: cBmm
   },
   {
     name: "B99 Memes",
     href: "https://www.instagram.com/b99_bybmm",
     platform: "Instagram",
-    img: cB99.url
+    img: cB99
   }
 ];
 function Clients() {
