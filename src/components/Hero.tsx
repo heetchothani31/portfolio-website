@@ -1,11 +1,11 @@
 import { Reveal } from "./Reveal";
 import { CountUp } from "./CountUp";
-import heroCreative from "@/assets/hero-creative.jpg.asset.json";
+import heroCreative from "@/assets/hero-creative.jpg";
 
 export function Hero() {
   return (
     <>
-      {/* Selling frame — first thing visitor sees */}
+      {/* Selling frame , first thing visitor sees */}
       <section
         id="top"
         className="relative min-h-screen flex items-center justify-center pt-24 pb-20 px-6"
@@ -50,7 +50,7 @@ export function Hero() {
             </div>
           </Reveal>
 
-          {/* Stats boxes — varunmp4.com style */}
+          {/* Stats boxes , varunmp4.com style */}
           <Reveal delay={900}>
             <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {[
@@ -76,14 +76,14 @@ export function Hero() {
         </div>
       </section>
 
-      {/* Identity hero — Heet */}
+      {/* Identity hero , Heet */}
       <section className="relative py-24 md:py-40 overflow-hidden">
         <div className="container-editorial">
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-5 order-2 lg:order-1">
               <Reveal>
                 <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                  Heet Chothani — Creative Strategist
+                  Heet Chothani, Creative Strategist
                 </div>
               </Reveal>
               <Reveal delay={150}>
@@ -135,8 +135,8 @@ export function Hero() {
               <Reveal delay={200} y={40}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-surface">
                   <img
-                    src={heroCreative.url}
-                    alt="Heet — Creative Strategist"
+                    src={heroCreative}
+                    alt="Heet, Creative Strategist"
                     className="w-full h-full object-cover transition-all duration-[1600ms] hover:scale-[1.02]"
                   />
                   <div className="absolute bottom-5 right-5 text-[10px] uppercase tracking-[0.28em] text-foreground/70">

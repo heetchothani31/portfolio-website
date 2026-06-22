@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import reelVidyut from "@/assets/reel-vidyut.jpg.asset.json";
+import reelVidyut from "@/assets/reel-vidyut.jpg";
 
 type Work = {
   label: string;
@@ -16,7 +16,7 @@ const shortform: Work[] = [
     label: "Instagram Reel",
     caption: "what happens when vidyut jammwal drop-tests a real SHANKH?",
     href: "https://www.instagram.com/reel/DYMBUfZsGxu/",
-    thumb: reelVidyut.url,
+    thumb: reelVidyut,
     vertical: true,
   },
   {
@@ -130,7 +130,7 @@ export function Work() {
           <div>
             <Reveal>
               <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                Selected Narratives — 03
+                Selected Narratives , 03
               </div>
             </Reveal>
             <Reveal delay={120}>

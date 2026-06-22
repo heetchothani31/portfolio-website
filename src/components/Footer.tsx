@@ -43,7 +43,7 @@ export function Footer() {
         <div className="hairline mt-12" />
 
         <div className="mt-6 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/50">
-          © {new Date().getFullYear()} Heet Chothani — All rights reserved
+          © {new Date().getFullYear()} Heet Chothani , All rights reserved
         </div>
       </div>
     </footer>

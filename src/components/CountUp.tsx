@@ -8,7 +8,7 @@ type Props = {
   className?: string;
 };
 
-// Animated number counter — triggers once when scrolled into view.
+// Animated number counter , triggers once when scrolled into view.
 // Inspired by varunmp4.com stats animation.
 export function CountUp({ to, suffix = "", prefix = "", duration = 1800, className }: Props) {
   const ref = useRef<HTMLSpanElement>(null);

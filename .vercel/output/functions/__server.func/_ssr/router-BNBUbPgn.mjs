@@ -125,13 +125,13 @@ const $$splitComponentImporter = () => import("./index-CGMdmjfA.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "Heet Chothani — Creative Strategist & Content Systems"
+      title: "Heet Chothani, Creative Strategist & Content Systems"
     }, {
       name: "description",
       content: "Heet builds narrative-led content systems for founders, creators, and brands. Turning attention into trust, and trust into growth."
     }, {
       property: "og:title",
-      content: "Heet Chothani — Creative Strategist"
+      content: "Heet Chothani, Creative Strategist"
     }, {
       property: "og:description",
       content: "Narrative-led content systems engineered for attention. Millions of views are a byproduct. Growth is the goal."

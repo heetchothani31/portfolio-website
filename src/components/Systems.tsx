@@ -42,7 +42,7 @@ export function Systems() {
           <div className="lg:col-span-5">
             <Reveal>
               <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-                Creative Systems — 04
+                Creative Systems , 04
               </div>
             </Reveal>
             <Reveal delay={120}>

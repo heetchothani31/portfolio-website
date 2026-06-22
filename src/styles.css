@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * Heet — Cinematic dark + orange premium design system.
+ * Heet , Cinematic dark + orange premium design system.
  * Typography: Editorial serif (Fraunces) for headlines, clean sans (Inter Tight) for body.
  * Palette: deep charcoal base, warm orange accent used sparingly.
  */
@@ -149,7 +149,7 @@
   }
 }
 
-/* Premium stat-box glow — slow, subtle breathing border */
+/* Premium stat-box glow , slow, subtle breathing border */
 @keyframes stat-glow {
   0%,
   100% {

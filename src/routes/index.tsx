@@ -8,16 +8,25 @@ import { Clients } from "@/components/Clients";
 import { ClosingCTA } from "@/components/ClosingCTA";
 import { Footer } from "@/components/Footer";
 
+const favicon = encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">' +
+    '<text y="64" x="50" font-size="88" text-anchor="middle" dominant-baseline="middle">📺</text>' +
+    "</svg>",
+);
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Heet Chothani — Creative Strategist & Content Systems" },
+      { title: "Heet Chothani, Creative Strategist & Content Systems" },
       {
         name: "description",
         content:
           "Heet builds narrative-led content systems for founders, creators, and brands. Turning attention into trust, and trust into growth.",
       },
-      { property: "og:title", content: "Heet Chothani — Creative Strategist" },
+      {
+        property: "og:title",
+        content: "Heet Chothani, Creative Strategist",
+      },
       {
         property: "og:description",
         content:
@@ -25,6 +34,12 @@ export const Route = createFileRoute("/")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      {
+        rel: "icon",
+        href: `data:image/svg+xml,${favicon}`,
+      },
     ],
   }),
   component: Index,

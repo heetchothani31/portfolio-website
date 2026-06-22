@@ -172,7 +172,7 @@ function Hero() {
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "relative py-24 md:py-40 overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-editorial", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-12 gap-10 lg:gap-16 items-center", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-5 order-2 lg:order-1", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Heet Chothani — Creative Strategist" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Heet Chothani, Creative Strategist" }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 150, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2rem,4.5vw,4rem)] leading-[1.05] tracking-[-0.03em] text-balance", children: [
           "Systems and operations",
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
@@ -207,7 +207,7 @@ function Hero() {
           "img",
           {
             src: heroCreative.url,
-            alt: "Heet — Creative Strategist",
+            alt: "Heet , Creative Strategist",
             className: "w-full h-full object-cover transition-all duration-[1600ms] hover:scale-[1.02]"
           }
         ),
@@ -323,7 +323,7 @@ function Work() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "work", className: "relative py-32 md:py-48 border-t border-border/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-editorial", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Selected Narratives — 03" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Selected Narratives , 03" }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2.2rem,5vw,4.4rem)] leading-[1.05] tracking-[-0.03em] text-balance max-w-2xl", children: [
           "A curated archive of ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("em", { className: "italic text-primary font-normal", children: "narratives" }),
@@ -405,7 +405,7 @@ const cases = [
 function Results() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "results", className: "relative py-32 md:py-48 border-t border-border/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-editorial", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-24 md:mb-32", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Results & Case Studies — 05" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Results & Case Studies , 05" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2.2rem,5vw,4.4rem)] leading-[1.05] tracking-[-0.03em] text-balance max-w-3xl", children: [
         "Numbers, in their ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("em", { className: "italic text-primary font-normal", children: "proper" }),
@@ -485,7 +485,7 @@ function Systems() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "systems", className: "relative py-32 md:py-48 border-t border-border/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-editorial", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-12 gap-12 mb-20", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-5", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Creative Systems — 04" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Creative Systems , 04" }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2.2rem,4.5vw,3.8rem)] leading-[1.05] tracking-[-0.03em] text-balance", children: [
           "Not services. ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("em", { className: "italic text-primary font-normal", children: "Systems" }),
@@ -612,7 +612,7 @@ const clients = [
 ];
 function Clients() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "clients", className: "relative py-32 md:py-48 border-t border-border/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-editorial", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Brands & Creators — 02" }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6", children: "Brands & Creators , 02" }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2rem,4.5vw,3.8rem)] leading-[1.05] tracking-[-0.03em] text-balance max-w-3xl mb-16", children: [
       "Trusted by founders, creators, and brands building",
       " ",
@@ -650,7 +650,7 @@ function ClosingCTA() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative py-32 md:py-56 border-t border-border/40 overflow-hidden", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 pointer-events-none", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1100px] h-[1100px] max-w-[110vw] max-h-[110vw] rounded-full bg-primary/[0.07] blur-[160px]" }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-editorial relative z-10 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-10", children: "The Final Frame — 06" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-10", children: "The Final Frame , 06" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 150, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-serif text-[clamp(2.8rem,9vw,8rem)] leading-[0.98] tracking-[-0.04em] text-balance max-w-5xl mx-auto", children: [
         "Let's build your",
         /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
@@ -728,7 +728,7 @@ function Footer() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-6 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/50", children: [
       "© ",
       (/* @__PURE__ */ new Date()).getFullYear(),
-      " Heet Chothani — All rights reserved"
+      " Heet Chothani , All rights reserved"
     ] })
   ] }) });
 }

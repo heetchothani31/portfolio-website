@@ -1,68 +1,68 @@
 import { Reveal } from "./Reveal";
-import cSohrab from "@/assets/clients/c-sohrab.jpg.asset.json";
-import cHiral from "@/assets/clients/c-hiral.jpg.asset.json";
-import cNikhil from "@/assets/clients/c-nikhil.jpg.asset.json";
-import cInfocious from "@/assets/clients/c-infocious.jpg.asset.json";
-import cShankh from "@/assets/clients/c-shankh.jpg.asset.json";
-import cKalari from "@/assets/clients/c-kalari.jpg.asset.json";
-import cNard from "@/assets/clients/c-nard.jpg.asset.json";
-import cBmm from "@/assets/clients/c-bmm.jpg.asset.json";
-import cB99 from "@/assets/clients/c-b99.jpg.asset.json";
+import cSohrab from "@/assets/clients/c-sohrab.jpg";
+import cHiral from "@/assets/clients/c-hiral.jpg";
+import cNikhil from "@/assets/clients/c-nikhil.jpg";
+import cInfocious from "@/assets/clients/c-infocious.jpg";
+import cShankh from "@/assets/clients/c-shankh.jpg";
+import cKalari from "@/assets/clients/c-kalari.jpg";
+import cNard from "@/assets/clients/c-nard.jpg";
+import cBmm from "@/assets/clients/c-bmm.jpg";
+import cB99 from "@/assets/clients/c-b99.jpg";
 
 const clients = [
   {
     name: "Sohrab Vakharia",
     href: "https://www.youtube.com/@sohrabvakharia",
     platform: "YouTube",
-    img: cSohrab.url,
+    img: cSohrab,
   },
   {
     name: "Level Up With Hiral",
     href: "https://www.youtube.com/@levelupwithhiral",
     platform: "YouTube · Instagram",
-    img: cHiral.url,
+    img: cHiral,
   },
   {
     name: "Nikhil Arora",
     href: "https://www.instagram.com/tapyourgrowth/",
     platform: "Instagram",
-    img: cNikhil.url,
+    img: cNikhil,
   },
   {
     name: "Infocious",
     href: "https://www.youtube.com/@infocious",
     platform: "YouTube",
-    img: cInfocious.url,
+    img: cInfocious,
   },
   {
     name: "Natural Shankh",
     href: "https://www.youtube.com/@NaturalShankh",
     platform: "YouTube · Instagram · Web",
-    img: cShankh.url,
+    img: cShankh,
   },
   {
     name: "Kalari Warriors",
     href: "https://www.kalariwarriors.com/",
     platform: "Web · Instagram",
-    img: cKalari.url,
+    img: cKalari,
   },
   {
     name: "Nard Ranks",
     href: "https://www.youtube.com/@NardRanks",
     platform: "YouTube",
-    img: cNard.url,
+    img: cNard,
   },
   {
     name: "Bring Me Memes",
     href: "https://www.instagram.com/bringme.memes",
     platform: "Instagram",
-    img: cBmm.url,
+    img: cBmm,
   },
   {
     name: "B99 Memes",
     href: "https://www.instagram.com/b99_bybmm",
     platform: "Instagram",
-    img: cB99.url,
+    img: cB99,
   },
 ];
 
@@ -72,7 +72,7 @@ export function Clients() {
       <div className="container-editorial">
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-            Brands & Creators — 02
+            Brands & Creators , 02
           </div>
         </Reveal>
         <Reveal delay={120}>

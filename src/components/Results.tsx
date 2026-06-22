@@ -78,7 +78,7 @@ export function Results() {
         <div className="mb-24 md:mb-32">
           <Reveal>
             <div className="text-[10px] uppercase tracking-[0.32em] text-primary/80 mb-6">
-              Results & Case Studies — 05
+              Results & Case Studies , 05
             </div>
           </Reveal>
           <Reveal delay={120}>
